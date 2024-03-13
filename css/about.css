@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(0, 171, 163, 0.11);
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 10px 5%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.home {
+    background-color: rgba(0, 181, 178, 0.429);
+    padding: 15px 40px;
+    border-radius: 25px;
+}
