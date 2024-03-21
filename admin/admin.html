@@ -4,77 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="admin.css">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
 <div class="container">
     <div class="sidebar">
         <div class="logo">
-            <img src="img/logo.png" alt="logo">
+            <img src="../img/logo.png" alt="logo">
             <a href="#">CAWS Connect</a>
         </div>
         <nav>
-            <a href="admin.html" class="active">Dashboard</a>
+            <a href="admin.html">Dashboard</a>
             <a href="admin.html">Posts</a>
             <a href="admin.html">Users</a>
             <a href="admin.html">Settings</a>
         </nav>
     </div>
-    <div class="main-content">
-        <header>
-            <h1>Dashboard</h1>
-            <div class="user">
-                <img src="img/user.png" alt="user">
-                <a href="#">Admin</a>
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <main>
+        <div class="cards">
+            <div class="card">
+                <h3>Posts</h3>
+                <p>5</p>
             </div>
-        </header>
-        <main>
-            <div class="cards">
-                <div class="card">
-                    <h3>Posts</h3>
-                    <p>12</p>
-                </div>
-                <div class="card">
-                    <h3>Users</h3>
-                    <p>5</p>
-                </div>
-                <div class="card">
-                    <h3>Comments</h3>
-                    <p>23</p>
-                </div>
+            <div class="card">
+                <h3>Users</h3>
+                <p>10</p>
             </div>
-            <div class="recent-posts">
-                <h2>Recent Posts</h2>
-                <table>
+            <div class="card">
+                <h3>Comments</h3>
+                <p>20</p>
+            </div>
+        </div>
+        <div class="recent-posts">
+            <h2>Recent Posts</h2>
+            <table>
+                <thead>
                     <tr>
                         <th>Title</th>
                         <th>Category</th>
                         <th>Date</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
-                        <td>How to adopt a pet</td>
+                        <td>How to Adopt a Pet</td>
                         <td>Adoption</td>
-                        <td>12/12/2020</td>
+                        <td>Jan 1, 2020</td>
                     </tr>
                     <tr>
-                        <td>How to adopt a pet</td>
+                        <td>How to Adopt a Pet</td>
                         <td>Adoption</td>
-                        <td>12/12/2020</td>
+                        <td>Jan 1, 2020</td>
                     </tr>
                     <tr>
-                        <td>How to adopt a pet</td>
+                        <td>How to Adopt a Pet</td>
                         <td>Adoption</td>
-                        <td>12/12/2020</td>
+                        <td>Jan 1, 2020</td>
                     </tr>
                     <tr>
-                        <td>How to adopt a pet</td>
+                        <td>How to Adopt a Pet</td>
                         <td>Adoption</td>
-                        <td>12/12/2020</td>
+                        <td>Jan 1, 2020</td>
                     </tr>
-                </table>
-            </div>
-        </main>
-    </div>
+                </tbody>
+            </table>
+        </div>
+    </main>
 </div>
 </body>
 </html>
